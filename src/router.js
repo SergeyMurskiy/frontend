@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 
 import EmployeesPage from "./components/EmployeesPage"
+import VacationPage from "./components/VacationsPage"
 
 Vue.use(Router);
 
@@ -12,6 +13,10 @@ export default new Router({
         {
             path: '/employees',
             component: EmployeesPage
+        },
+        {
+            path: '/vacations',
+            component: VacationPage
         }
     ]
 })
